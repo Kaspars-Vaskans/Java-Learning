@@ -32,6 +32,7 @@ public class Variables {
 
         System.out.println(temperature);
         System.out.println(price);
+        System.out.println(distance);
 
         //char (symbols)
 
@@ -46,10 +47,10 @@ public class Variables {
         // boolean (logical type, can keep two values: true or false)
         // How to name ? has or is
         // Example: isSummer / if(isSummer){}; / isLoggedIn;
-        // Example: hasAccess / if(hasAcces) {};
+        // Example: hasAccess / if(hasAccess) {};
 
-        boolean hasAcces = true;
-        System.out.println(hasAcces);
+        boolean hasAccess = true;
+        System.out.println(hasAccess);
 
         boolean isSummer = true;
         System.out.println(isSummer); // \n
