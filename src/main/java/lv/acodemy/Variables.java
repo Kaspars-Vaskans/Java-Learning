@@ -60,9 +60,11 @@ public class Variables {
 
         // long
         long phoneNumber = 35433168;
+        System.out.println(phoneNumber);
 
         //float
         float interestRate = 4.5f;
+        System.out.println(interestRate);
 
         // Arithmetics operators
 
@@ -105,8 +107,8 @@ public class Variables {
 
         // increment ++
         // preDecrement --
-        // preIncrement
-        // decrement --
+        // preIncrement ++
+        // --decrement
 
         number++;
         System.out.println(number);
@@ -119,6 +121,26 @@ public class Variables {
         int preIncrement = ++counter;
         System.out.println(postIncrement);
         System.out.println(preIncrement);
+
+        String name  = "Kaspars";
+        String lastName = "Vaskans";
+
+        // print these separatly
+
+        System.out.println(name);
+        System.out.println(lastName);
+
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
+
+        System.out.println(String.format("My name is: %s, My surname is :%s",name , lastName));
+
+        var myCurrentAge = 35;
+        var text = "Hello World";
+
+
+
+
 
 
 
